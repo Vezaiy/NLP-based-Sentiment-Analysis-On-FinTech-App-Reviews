@@ -1,37 +1,24 @@
-## SENTIMENT ANALYSIS OF CUSTOMER'S REVIEWS ON TOP FINTECH COMPANIES PRODUCTS 
-
-![image](sentiment.png)
-
 ## INTRODUCTION
-<p>In everyday life, companies(technical and non-technical) and start-ups release products of different categories for consumer's benefits. Selection of one or more of these products are accompanied by the experience and feedbacks of the earlier users. Early adopters justify their experience with reviews and tweets on the social media, and also ratings. Ratings can be easily sorted and judged as its scaled. But reviews and tweets are texts, positive or negative, which will requires thorough reading for the message to be conveyed to the developer of the products.</p>
+<p>IIn the realm of modern business, both technical and non-technical companies, as well as startups, introduce a diverse array of products aimed at benefiting consumers. The decision-making process behind selecting these products is often influenced by the experiences and feedback of early adopters. These pioneers convey their perspectives through reviews, tweets on social media platforms, and numerical ratings. While ratings provide a straightforward measure due to their scale, comprehending the textual nature of reviews and tweets demands substantial reading to extract meaningful insights for product improvement.</p>
 
-<p> With the advent of a branch of Artificiial Intelligence, Natural Language Processing (NLP), its tools, algorithms and its implemention has helped companies to lessen and ease the task of analyzing the corpus to make better decisions, corrections and improved their products and servivces.</p>
+<p>However, the emergence of Natural Language Processing (NLP) within the field of Artificial Intelligence has revolutionized this landscape. NLP tools, algorithms, and applications have enabled companies to streamline the analysis of large text corpora, leading to more informed decisions, effective corrections, and overall product and service enhancements.
+</p>
 
 ## UNDERSTANDNG THE PROBLEM STATEMENT
-<li>The first step in any machine learning task is understanding the problem statement, So that's what we aim to do here. </li>
-<li> FinTech (financial Technology) is catch-all term referring to software, mobile applications and other technologies created to provide and improve financial solutions to businesses and consumers, automate traditional forms of finance and guide its users to making better decisions in their finances. </li>
-<li>FinTech has had enormous impact over the years with firms doing a great job to provide big improvement in services rendered to customer. </li>
-<li>I am a big fan of FinTech, and I have seen complaints and feedbacks on social media and also reviews from Google App Playstore which depicts the experience from users of these tech services </li>.
-<li>These feedbacks and revews are essential to detect and understand customer feelings, generate insights into how companies make decision to enhance customer experience and improve their services. </li>
+<p>In any machine learning endeavor, a foundational step involves comprehending the problem at hand. This is precisely what we endeavor to achieve here:
+The term "FinTech" (Financial Technology) encompasses software, mobile apps, and various technologies designed to enhance financial solutions for businesses and consumers alike. Its scope spans automating traditional financial processes, offering improved services, and guiding users toward sound financial decisions. The FinTech sector has exerted a profound impact over the years, with companies making significant strides in enhancing financial services and customer experiences. These user-generated insights, presented in the form of reviews and feedback, are pivotal in gauging customer sentiments, unearthing decision-making patterns that companies adopt to enhance user experiences, and guiding service improvements.<p></p>
 
 ## SENTIMENT ANALYSIS
-<p> Sentiment analysis (or opinion mining) is a Natural Language Processing (NLP) technique used to determine whether a text is positive, negative or neutral. Sentiment analysis is a textual classification tool that help businesses monitor brand and product sentiment in customer feedback, and understand customer feelings, thoughts more openly than before. With this technology, companies can analyze feedbacks from responses, sentiments, surveys, tweets and easily attend to their customer to better tailor their products and services to meet their needs. </p>
+<p> Sentiment analysis, also known as opinion mining, stands as a cornerstone within Natural Language Processing (NLP). Its objective is to discern whether a given text expresses a positive, negative, or neutral sentiment. This analytical tool empowers businesses to monitor brand perception and product sentiment within customer feedback. By delving into the emotions, thoughts, and opinions conveyed in textual feedback, companies can grasp user sentiments more intimately than ever before. Armed with this technological advantage, businesses can adeptly dissect responses, survey results, social media interactions, and other forms of user-generated content. Subsequently, these insights guide the fine-tuning of products and services, aligning them more accurately with user needs. </p>
 
 ## DATASETS
-<p> The datasets used for this project is derived from reviews scraped from the Google App Playstore of the <b> Top 8 FinTech Companies in Africa -Flutter wave,  Opay, Palm Pay, Chipper Cash, Interswitch, PiggyVest, Paga and Kuda bank. </b>.
-Since the reviews on the internet are imbalanced, the reviews data are scraped with rating 3 -Neutral make up twice as much as the other ratings. Also, to get the important ratings and reviews, the reviews are sorted with Most Relevant and NEWEST.</p> 
-
-<p> The datasets consists of over 20,000 reviews balanced with ratings. </p> 
+<p> The bedrock of this project resides in datasets harvested from reviews posted on the Google Play Store. The focus is directed toward the Top 8 FinTech Companies in Africa, including. Recognizing the inherent imbalance in online reviews, the dataset is curated to reflect a prevalence of neutral reviews (rating 3), outnumbering other ratings. To ensure the salience of data, reviews are meticulously sorted based on their relevance and recency. This compendium of datasets aggregates over 20,000 reviews, harmonizing both content and ratings for a comprehensive analysis.</p> 
 
 ## PROJECT OBJECTIVES
-1. Preprocess and clean reviews to prepare for visualization and model
-2. Create visualizations and generate a story from the processed reviews
-3. Extract features from the cleaned reviews
-4. Build a Sentiment Analysis Model
+1. Data Preprocessing and Cleansing: The initial stride entails refining and preparing the reviews for subsequent visualization and modeling phases.
 
-## Environment, Tools and Libraries:
-1.	Pandas for data manipulation <img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white">
-2.	Numpy for mathematical calculation and analysis <img src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white">
-3.	Seaborn and Matplotlib for visualization and insights
-4.	Python 3.9 Environment <img src="https://img.shields.io/badge/python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white">
-5.	Jupyter and Microsoft Excel as tools <img src="https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white"> <img src="https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white" >
+2. Insightful Visualizations and Narrative Generation: Crafting visual representations of data and extrapolating meaningful narratives from the processed reviews forms a pivotal project stage.
+
+3. Feature Extraction from Refined Reviews: Extracting pertinent features from the cleansed reviews paves the way for subsequent analysis.
+
+4. Constructing a Sentiment Analysis Model: The apex of the project culminates in the construction of a robust sentiment analysis model, capable of discerning sentiments expressed within the FinTech reviews.
